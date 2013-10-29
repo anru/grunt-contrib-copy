@@ -1,3 +1,7 @@
+v0.4.2:
+  date: 2013-10-29
+  changes:
+    - Added checkMtime option for skip coping already fresh files.
 v0.4.1:
   date: 2013-03-26
   changes:

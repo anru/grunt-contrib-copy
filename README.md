@@ -1,4 +1,4 @@
-# grunt-contrib-copy v0.4.1 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-copy.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-copy)
+# grunt-contrib-copy v0.4.2 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-copy.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-copy)
 
 > Copy files and folders.
 
@@ -160,6 +160,7 @@ $ tree -I node_modules
 
 ## Release History
 
+ * 2013-10-29   v0.4.2   Added checkMtime option for skip coping already fresh files.
  * 2013-03-26   v0.4.1   Output summary by default ("Copied N files, created M folders"). Individual transaction output available via `--verbose`.
  * 2013-02-15   v0.4.0   First official release for Grunt 0.4.0.
  * 2013-01-23   v0.4.0rc7   Updating grunt/gruntplugin dependencies to rc7. Changing in-development grunt/gruntplugin dependency versions from tilde version ranges to specific versions.
@@ -176,4 +177,4 @@ $ tree -I node_modules
 
 Task submitted by [Chris Talkington](http://christalkington.com/)
 
-*This file was generated on Tue Oct 29 2013 17:12:43.*
+*This file was generated on Tue Oct 29 2013 17:24:11.*
