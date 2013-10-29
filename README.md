@@ -29,15 +29,30 @@ _Run this task with the `grunt copy` command._
 Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
 ### Options
 
-#### processContent
+#### process
 Type: `Function(content, srcpath)`
 
 This option is passed to `grunt.file.copy` as an advanced way to control the file contents that are copied.
 
-#### processContentExclude
+*`processContent` has been renamed to `process` and the option name will be removed in the future.*
+
+#### noProcess
 Type: `String`
 
 This option is passed to `grunt.file.copy` as an advanced way to control which file contents are processed.
+
+*`processContentExclude` has been renamed to `noProcess` and the option name will be removed in the future.*
+
+#### encoding
+Type: `String`
+Default: `grunt.file.defaultEncoding`
+
+The file encoding to copy files with.
+
+#### checkMtime
+Type: `Boolean`
+
+If true check for last modification time of destination files, and if no changes (modification time are equal) don't do copy.
 
 ### Usage Examples
 
@@ -161,4 +176,4 @@ $ tree -I node_modules
 
 Task submitted by [Chris Talkington](http://christalkington.com/)
 
-*This file was generated on Sun Oct 27 2013 22:22:39.*
+*This file was generated on Tue Oct 29 2013 17:12:43.*
