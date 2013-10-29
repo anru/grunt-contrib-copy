@@ -1,23 +1,23 @@
 {
-  "name": "grunt-contrib-copy",
-  "description": "Copy files and folders.",
+  "name": "grunt-mcopy",
+  "description": "Copy files and folders. Fork of grunt-contrib-copy.",
   "version": "0.4.2",
-  "homepage": "https://github.com/gruntjs/grunt-contrib-copy",
+  "homepage": "https://github.com/anru/grunt-contrib-copy",
   "author": {
     "name": "Grunt Team",
     "url": "http://gruntjs.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gruntjs/grunt-contrib-copy.git"
+    "url": "git://github.com/anru/grunt-contrib-copy.git"
   },
   "bugs": {
-    "url": "https://github.com/gruntjs/grunt-contrib-copy/issues"
+    "url": "https://github.com/anru/grunt-contrib-copy/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/gruntjs/grunt-contrib-copy/blob/master/LICENSE-MIT"
+      "url": "https://github.com/anru/grunt-contrib-copy/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
