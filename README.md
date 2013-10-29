@@ -1,6 +1,6 @@
-# grunt-contrib-copy v0.4.2 [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-copy.png?branch=master)](https://travis-ci.org/gruntjs/grunt-contrib-copy)
+# grunt-mcopy v0.4.3 [![Build Status](https://travis-ci.org/anru/grunt-contrib-copy.png?branch=master)](https://travis-ci.org/anru/grunt-contrib-copy)
 
-> Copy files and folders.
+> Copy files and folders. Fork of grunt-contrib-copy.
 
 
 
@@ -10,13 +10,13 @@ This plugin requires Grunt `~0.4.0`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-contrib-copy --save-dev
+npm install grunt-mcopy --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-contrib-copy');
+grunt.loadNpmTasks('grunt-mcopy');
 ```
 
 *This plugin was designed to work with Grunt 0.4.x. If you're still using grunt v0.3.x it's strongly recommended that [you upgrade](http://gruntjs.com/upgrading-from-0.3-to-0.4), but in case you can't please use [v0.3.2](https://github.com/gruntjs/grunt-contrib-copy/tree/grunt-0.3-stable).*
@@ -177,4 +177,4 @@ $ tree -I node_modules
 
 Task submitted by [Chris Talkington](http://christalkington.com/)
 
-*This file was generated on Tue Oct 29 2013 17:24:11.*
+*This file was generated on Tue Oct 29 2013 17:50:12.*

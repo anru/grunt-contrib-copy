@@ -1,7 +1,7 @@
 {
   "name": "grunt-mcopy",
   "description": "Copy files and folders. Fork of grunt-contrib-copy.",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "homepage": "https://github.com/anru/grunt-contrib-copy",
   "author": {
     "name": "Grunt Team",
