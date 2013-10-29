@@ -89,7 +89,7 @@ module.exports = function(grunt) {
     }
 
     if (tally.skipped) {
-      grunt.log.write((tally.dirs || tally.files ? ', skipped ' : ' Skipped') + tally.skipped.toString().cyan + ' files');
+      grunt.log.write((tally.dirs || tally.files ? ', skipped ' : 'Skipped ') + tally.skipped.toString().cyan + ' files');
     }
 
     grunt.log.writeln();
